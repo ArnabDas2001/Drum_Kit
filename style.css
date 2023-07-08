@@ -54,7 +54,6 @@ body{
 .active {
     background-color: #f10c45;
     transform: scale(1.015);
-    /* box-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45; */
 }
 footer{
     padding-top: 1%;
