@@ -81,7 +81,7 @@ function playDrum(key) {
         });
     } else {
     
-        alert(
+        console.log(
             "OOPS!\nIt looks like you've pressed a key that isn't defined.\nTry again with a valid key."
         );
 
