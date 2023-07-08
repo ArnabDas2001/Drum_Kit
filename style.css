@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    text-align: center;
+}
+.logo{
+    display: inline-flex;
+    padding-top: 3%;
+}
+.heading{
+    padding-top: 4%;
+    font-size: 40px;
+    color: whitesmoke;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+.Drum{
+    height: 60px;
+    margin-left: 10px;
+}
+.heading:hover{
+    cursor: pointer;
+    transition: 1s;
+    text-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;
+}
+#drumkit {
+    margin: 1.5rem auto;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.keyBlock{
+    display: inline-grid;
+    place-content: center;
+    border-radius: 1rem;
+    width: 175px;
+    height: 145px;
+    padding: 1%;
+    margin: 1%;
+    cursor: pointer;
+    transition: 0.15s;
+    background: rgba(255, 255, 255, 0.137);
+    box-shadow: 5px 5px 10px 2px rgb(56, 56, 56);
+    backdrop-filter: blur( 4px );
+    border: none;
+}
+
+.active {
+    background-color: #f10c45;
+    transform: scale(1.025);
+    transition: 0.15s;
+    box-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;
+}
+footer{
+    padding-top: 1%;
+    color: whitesmoke;
+    font-size: 18px;
+    animation: glow1 1s ease-in-out infinite alternate;
+}
+
+
+@keyframes glow {
+    from{color: whitesmoke;}
+    to{text-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;}
+  }
+@keyframes glow1 {
+    from{color: whitesmoke;}
+    to{text-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;}
+  }
+
+@media screen and (max-width: 600px)
+{
+    body{
+        background-image: url(background_1.jpg);
+        background-size: cover;
+        overflow: hidden;
+        background-repeat: repeat;
+    }
+    .heading{
+        padding-top: 5%;
+        font-size: 28px;
+        color: whitesmoke;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    .Drum{
+        height: 43px;
+        margin-left: 10px;
+    }
+    .keyBlock{
+        width: 92px;
+        height: 82px;
+        padding: 1%;
+        margin: 1.5%;
+        font-size: 12px;
+    }
+    footer{
+        font-size: 13.5px;
+        margin-top: -1.5%;
+        padding-bottom: 2%;
+    }
+}
