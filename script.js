@@ -1,4 +1,4 @@
-// Defining Types Of Drum Keys Available
+
  var data = {
     'W': {
         name: 'Clap',
