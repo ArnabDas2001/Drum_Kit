@@ -4,4 +4,7 @@
  It's a fun web application to play around with, I made this project while learning javascript through the course being provided by 
  Dr.Angela Yu. Special thanks to her for guiding me through the whole process of this project.
 
+
+ click the link below to play around with the drum kit and enjoy 👇
  
+ https://arnabdas2001.github.io/Drum_Kit/
