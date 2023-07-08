@@ -76,13 +76,14 @@ footer{
     to{text-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;}
   }
 
-@media screen and (max-width: 600px)
+@media only screen and (max-width: 600px)
 {
     body{
         background-image: url(background_1.jpg);
         background-size: cover;
-        overflow: hidden;
-        background-repeat: repeat;
+    }
+    .logo{
+        padding-top: 10%;
     }
     .heading{
         padding-top: 5%;
@@ -90,20 +91,57 @@ footer{
         color: whitesmoke;
         animation: glow 1s ease-in-out infinite alternate;
     }
+    #drumkit{
+        margin-top: 17%;
+    }
     .Drum{
         height: 43px;
         margin-left: 10px;
     }
     .keyBlock{
-        width: 92px;
-        height: 82px;
+        width: 105px;
+        height: 100px;
         padding: 1%;
         margin: 1.5%;
         font-size: 12px;
     }
     footer{
         font-size: 13.5px;
-        margin-top: -1.5%;
-        padding-bottom: 2%;
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 400px)
+{
+    body{
+        background-image: url(background_1.jpg);
+        background-size: cover;
+    }
+    .logo{
+        padding-top: 2%;
+    }
+    .heading{
+        padding-top: 5%;
+        font-size: 28px;
+        color: whitesmoke;
+        animation: glow 1s ease-in-out infinite alternate;
+    }
+    #drumkit{
+        margin-top: 2%;
+    }
+    .Drum{
+        height: 43px;
+        margin-left: 10px;
+    }
+    .keyBlock{
+        width: 95px;
+        height: 80px;
+        padding: 2%;
+        margin: 1.5%;
+        font-size: 12px;
+    }
+    footer{
+        font-size: 13.5px;
+        margin-top: -3%;
     }
 }

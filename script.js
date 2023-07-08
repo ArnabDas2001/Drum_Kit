@@ -87,7 +87,7 @@ function playDrum(key) {
 
         setTimeout(function () {
             console.clear();
-        }, 10000);
+        });
     }
 };
 
