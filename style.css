@@ -8,8 +8,6 @@
 body{
     background-image: url(background.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
     text-align: center;
 }
 .logo{
@@ -55,8 +53,7 @@ body{
 
 .active {
     background-color: #f10c45;
-    transform: scale(1.025);
-    transition: 0.15s;
+    transform: scale(1.015);
     box-shadow: 0 0 3px whitesmoke, 0 0 6px whitesmoke, 0 0 9px #f10c45, 0 0 12px #f10c45, 0 0 15px #f10c45, 0 0 18px #f10c45, 0 0 21px #f10c45;
 }
 footer{
@@ -79,8 +76,8 @@ footer{
 @media only screen and (max-width: 600px)
 {
     body{
-        background-image: url(background_1.jpg);
-        background-size: cover;
+        background-image: url(background.jpg);
+        
     }
     .logo{
         padding-top: 10%;
@@ -112,10 +109,9 @@ footer{
 }
 
 @media only screen and (max-width: 400px)
-{
+{  
     body{
-        background-image: url(background_1.jpg);
-        background-size: cover;
+        background-image: url(background.jpg);
     }
     .logo{
         padding-top: 2%;
